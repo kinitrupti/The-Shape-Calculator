@@ -1,5 +1,5 @@
 <IfModule mod_rewrite.c>
-RewriteBase /Shape-Calculator
+RewriteBase /The-Shape-Calculator
    RewriteEngine on
    RewriteRule    ^$ app/webroot/    [L]
    RewriteRule    (.*) app/webroot/$1 [L]
